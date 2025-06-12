@@ -19,6 +19,10 @@ class Queues
         {
             int num;
             cout << "Enter a number:";
+            cin >> num;
+            cout << endl;
+
+            //1. Cek apakah antrian penuh
             
         }
 }
