@@ -43,6 +43,12 @@ class Queues
                 else
                     REAR = REAR + 1;  
             }
-            queue
+            queue_array[REAR] = num; 
+        }
+
+        void remove()
+        {
+            //Cek apakah antrian kosong
+            
         }
 }
